@@ -766,7 +766,7 @@ body {
 }
 .modal-chec:checked + .checkbox {
   background-color: var(--acent);
-  background-image: url(/img/icon-check.svg);
+  background-image: url(./img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: var(--acent);
