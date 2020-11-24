@@ -144,7 +144,6 @@ body {
 }
 .address {
   font-style: normal;
-  margin-right: 70px;
 }
 .figure {
   display: block;
@@ -418,6 +417,7 @@ body {
 }
 .footer-container {
   display: flex;
+  justify-content: space-between;
 }
 .footer {
   display: flex;
@@ -465,7 +465,6 @@ body {
   display: flex;
 }
 .subscribe-container {
-  margin-left: 93px;
 }
 .footer-svg {
   width: 24px;
@@ -679,6 +678,7 @@ body {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .label-text {
   position: absolute;
@@ -710,6 +710,7 @@ body {
   resize: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .input-svg {
   position: absolute;
